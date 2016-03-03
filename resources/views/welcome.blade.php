@@ -158,7 +158,7 @@
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="sorting_places_wrap grid_sorting">
                         <div class="top_head_bar">
-                            <h4><a href="Tour-Packages-Grid-View.html#">8 Days Yoga Trail Week in Portugal</a></h4>
+                            <h4><a href="#">8 Days Yoga Trail Week in Portugal</a></h4>
                             <div><b>Omassim</b></div>
                         </div>
                         <div class="thumb_wrape">
@@ -190,7 +190,7 @@
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="sorting_places_wrap grid_sorting">
                         <div class="top_head_bar">
-                            <h4><a href="Tour-Packages-Grid-View.html#">8 Days Yoga Trail Week in Portugal</a></h4>
+                            <h4><a href="#">8 Days Yoga Trail Week in Portugal</a></h4>
                             <div><b>Omassim</b></div>
                         </div>
                         <div class="thumb_wrape">
@@ -222,7 +222,7 @@
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="sorting_places_wrap grid_sorting">
                         <div class="top_head_bar">
-                            <h4><a href="Tour-Packages-Grid-View.html#">8 Days Yoga Trail Week in Portugal</a></h4>
+                            <h4><a href="#">8 Days Yoga Trail Week in Portugal</a></h4>
                             <div><b>Omassim</b></div>
                         </div>
                         <div class="thumb_wrape">
@@ -254,7 +254,7 @@
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="sorting_places_wrap grid_sorting">
                         <div class="top_head_bar">
-                            <h4><a href="Tour-Packages-Grid-View.html#">8 Days Yoga Trail Week in Portugal</a></h4>
+                            <h4><a href="#">8 Days Yoga Trail Week in Portugal</a></h4>
                             <div><b>Omassim</b></div>
                         </div>
                         <div class="thumb_wrape">
@@ -286,7 +286,7 @@
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="sorting_places_wrap grid_sorting">
                         <div class="top_head_bar">
-                            <h4><a href="Tour-Packages-Grid-View.html#">8 Days Yoga Trail Week in Portugal</a></h4>
+                            <h4><a href="#">8 Days Yoga Trail Week in Portugal</a></h4>
                             <div><b>Omassim</b></div>
                         </div>
                         <div class="thumb_wrape">
@@ -318,7 +318,7 @@
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="sorting_places_wrap grid_sorting">
                         <div class="top_head_bar">
-                            <h4><a href="Tour-Packages-Grid-View.html#">8 Days Yoga Trail Week in Portugal</a></h4>
+                            <h4><a href="#">8 Days Yoga Trail Week in Portugal</a></h4>
                             <div><b>Omassim</b></div>
                         </div>
                         <div class="thumb_wrape">
