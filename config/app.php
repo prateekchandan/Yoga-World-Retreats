@@ -69,6 +69,19 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+    | Application Local Currency
+    |--------------------------------------------------------------------------
+    |
+    | The application local currency determines the default local Currency that
+    | will be used throught the application. You are free to set this value
+    | to any of the locales which will be supported by the application.
+    |
+    */
+
+    'iso' => 'USD',
+
+    /*
+    |--------------------------------------------------------------------------
     | Application Fallback Locale
     |--------------------------------------------------------------------------
     |

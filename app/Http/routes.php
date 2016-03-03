@@ -27,10 +27,11 @@
 
 Route::group(['middleware' => 'web'], function () {
 	Route::get('/', function () {
-    return view('welcome');
-});
+   	 return view('welcome');
+	});
 	
     Route::auth();
 
     Route::get('/home', 'HomeController@index');
+    Route::get('/currency/{iso}', 'WelcomeController@changeiso');
 });

@@ -2,6 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use Session;
+use Redirect;
+use View;
+use App\Country;
 use App\Http\Requests;
 use Illuminate\Http\Request;
 
@@ -12,6 +16,8 @@ class HomeController extends Controller
      *
      * @return void
      */
+
+
     public function __construct()
     {
         $this->middleware('auth');
@@ -26,4 +32,6 @@ class HomeController extends Controller
     {
         return view('home');
     }
+
+    
 }
