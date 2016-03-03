@@ -20,7 +20,7 @@
                                 <div class="slider_heading_wrap">
                                     <div class="tp-caption NotGeneric-Title slideheading  tp-resizeme" id="slide-391-layer-1" data-x="100" data-hoffset="" data-y="center" data-voffset="-30" data-width="['auto','auto','auto','auto']" data-height="['auto','auto','auto','auto']" data-transform_idle="o:1;" data-transform_in="x:left;s:2000;e:Power4.easeInOut;" data-transform_out="s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style=" z-index: 8;">
                                         <p style="font-size:100px; line-height:60px;" class="best_text">Yoga</p>
-                                        <p style="font-size:50px; line-height:60px;">Retreates and</p>
+                                        <p style="font-size:50px; line-height:60px;">Retreats and</p>
                                         <p style="font-size:100px; line-height:60px;">Vacation</p>
 
 
@@ -37,7 +37,7 @@
                                 <div class="slider_heading_wrap">
                                     <div class="tp-caption NotGeneric-Title slideheading  tp-resizeme" id="slide-392-layer-1" data-x="100" data-hoffset="" data-y="center" data-voffset="-30" data-width="['auto','auto','auto','auto']" data-height="['auto','auto','auto','auto']" data-transform_idle="o:1;" data-transform_in="x:left;s:2000;e:Power4.easeInOut;" data-transform_out="s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style=" z-index: 8;">
                                         <p style="font-size:100px; line-height:60px;" class="best_text">Yoga</p>
-                                        <p style="font-size:50px; line-height:60px;">Retreates and</p>
+                                        <p style="font-size:50px; line-height:60px;">Retreats and</p>
                                         <p style="font-size:100px; line-height:60px;">Vacation</p>
 
 
