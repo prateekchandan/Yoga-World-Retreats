@@ -31,6 +31,7 @@
 </head>
 
 <body class="travel_home">
+{{--
     <!--Page loading start-->
     <div class="travel_page_loader">
         <div class="travel_loading_bar_wrapper">
@@ -45,6 +46,7 @@
             </div>
         </div>
     </div>
+--}}
     <!--Page loading end-->
     <!--Page main section start-->
     <div id="travel_wrapper">

@@ -207,7 +207,7 @@
 			}else{
 			 clearInterval(interval);
 			}
-			value++;
+			value+=10;
 			
 			if(value == 7){
 			 $('.pointer').css('opacity','1');
@@ -230,7 +230,7 @@
 		   if ($('body').hasClass('travel_home')){
 				setTimeout(function(){
 				  $('#travel_wrapper').addClass('travel_body_loaded'); 
-			    }, 1000);
+			    }, 100);
 		
 			} else{
 			    setTimeout(function(){
