@@ -1,7 +1,8 @@
 <?php
   use App\Country;
 
-  $iso = Session::get('iso');
+
+  $iso = Session::get('iso','USD');
   $countries = Country::all();
 ?>
 <!DOCTYPE html>
