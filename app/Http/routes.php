@@ -31,7 +31,12 @@ Route::group(['middleware' => 'web'], function () {
 	});
 	
     Route::auth();
+    Route::get('/account', array('as'=>'home','uses'=>'HomeController@index'));
+    
+    Route::get('/business', array('as'=>'business.show','uses'=>'BusinessController@index'));
+    Route::get('/business/create', array('as'=>'business.create','uses'=>'BusinessController@showform'));
+    Route::get('/business/edit', array('as'=>'business.edit','uses'=>'BusinessController@showedit'));
+    Route::post('/business/create', array('as'=>'business.create','uses'=>'BusinessController@registerbusiness'));
 
-    Route::get('/home', 'HomeController@index');
     Route::get('/currency/{iso}', 'WelcomeController@changeiso');
 });

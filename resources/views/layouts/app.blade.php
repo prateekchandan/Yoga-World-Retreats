@@ -1,9 +1,7 @@
 <?php
-  use App\Country;
-
-
-  $iso = Session::get('iso','USD');
-  $countries = Country::all();
+    use App\Country;
+    $iso = Session::get('iso','USD');
+    $countries = Country::all();
 ?>
 <!DOCTYPE html>
 
@@ -57,7 +55,7 @@
                     <div class="row">
                         <div class="col-md-6 col-sm-6">
                             <p>
-                                <b style="font-size: 1.5em">Yoga World Retreats'</b>
+                                <a href="{{url('')}}"><b style="font-size: 1.5em">Yoga World Retreats'</b></a>
                             </p>
                         </div>
                         <div class="col-md-6 col-sm-6">
@@ -72,7 +70,19 @@
                                     </li>
                                     --}}
                                     <li><a href="#">Blog</a></li>
-                                    <li><a href="#">Partners</a></li>
+                                    @if(Auth::guest())
+                                    <li><a href="{{url('login')}}">Login/Signup</a></li>
+                                    @else
+                                    <li><a href="#">{{Auth::user()->name}}</a>
+                                         <ul class="sub-menu">
+                                            <li><a href="{{route('home')}}">Account</a></li>
+                                            @if(Auth::user()->business!=NULL)
+                                                <li><a href="{{route('business.show')}}">Business</a></li>
+                                            @endif
+                                            <li><a href="{{url('logout')}}">Logout</a></li>
+                                         </ul>
+                                    </li>
+                                    @endif
                                     <li><a href="#">{{$iso}}</a>
                                         <ul class="sub-menu">
                                             @foreach($countries as $country)
@@ -202,6 +212,8 @@
     <!-- pricefilter-->
     <script type="text/javascript" src="/asset/js/custom.js"></script>
     <!--main js file end-->
+
+    @yield('script')
 </body>
 
 </html>
