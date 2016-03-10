@@ -87,10 +87,10 @@
                         </div>
                     </div> 
                     <div class="form-group{{ $errors->has('phone') ? ' has-error' : '' }}">
-                        <div class="col-md-2">
+                        <div class="col-md-3">
                                 <input class="input_login" id="ext" name="ext" value="{{ old('ext') }}" readonly="">
                         </div>
-                        <div class="col-md-10">
+                        <div class="col-md-9">
                             <input type="text" class="input_login" placeholder="Phone" name="phone" value="{{old('phone')==NULL?$business->phone:old('phone')}}"> 
                             @if ($errors->has('phone'))
                             <span class="help-block">

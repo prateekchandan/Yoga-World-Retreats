@@ -22,6 +22,7 @@ class CreateUsersTable extends Migration
             $table->string('isd_code');
             $table->string('currency');
             $table->string('symbol');
+            $table->string('region');
             $table->double('dollar_value');
             $table->timestamp('created_at');
         });
@@ -58,10 +59,7 @@ class CreateUsersTable extends Migration
             $table->timestamps();
         });
 
-        Schema::create('listing', function (Blueprint $table) {
-            $table->increments('id');
-        });
-
+       
         
     }
 

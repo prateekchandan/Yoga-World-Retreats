@@ -12,19 +12,44 @@ use App\Country;
 
 class WelcomeController extends Controller
 {
+    private $countries = [];
+
+    /**
+     * Create a new controller instance.
+     *
+     * @return void
+     */
+
+
+    public function __construct()
+    {
+        $this->middleware('auth');
+        $this->countries = Country::all();
+    }
+
+
     /**
      * Change the ISO
      *
      * @return \Illuminate\Http\Response
      */
-    public function changeiso($iso)
+    public function changeiso($currency)
     {
-        $iso = Country::where('iso',$iso)->first();
+        $country = Country::where('currency',$currency)->first();
 
-        if(!is_null($iso)){
-            Session::set('iso',$iso->iso);
+        if(!is_null($country)){
+            Session::set('currency',$country->currency);
         }
 
         return redirect()->back();
+    }
+
+    /**
+     * Shows main page
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function index(){
+        return view('welcome')->with(array('countries'=>$this->countries));
     }
 }

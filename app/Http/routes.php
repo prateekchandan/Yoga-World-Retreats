@@ -26,9 +26,7 @@
 
 
 Route::group(['middleware' => 'web'], function () {
-	Route::get('/', function () {
-   	 return view('welcome');
-	});
+	Route::get('/', 'WelcomeController@index');
 	
     Route::auth();
     Route::get('/account', array('as'=>'home','uses'=>'HomeController@index'));

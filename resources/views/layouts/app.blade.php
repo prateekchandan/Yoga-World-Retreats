@@ -1,7 +1,11 @@
 <?php
     use App\Country;
-    $iso = Session::get('iso','USD');
+    $iso = Session::get('currency','USD');
     $countries = Country::all();
+
+    $rates = file_get_contents('http://api.fixer.io/latest?base=USD');
+    $iso_list = json_decode($rates,true)['rates'];
+    
 ?>
 <!DOCTYPE html>
 
@@ -85,8 +89,8 @@
                                     @endif
                                     <li><a href="#">{{$iso}}</a>
                                         <ul class="sub-menu">
-                                            @foreach($countries as $country)
-                                            <li><a href="{{url('/')}}/currency/{{$country->iso}}">{{$country->iso}}</a></li>
+                                            @foreach($iso_list as $iso => $val)
+                                            <li><a href="{{url('/')}}/currency/{{$iso}}">{{$iso}}</a></li>
                                             @endforeach
                                         </ul>
                                     </li>

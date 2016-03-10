@@ -65,19 +65,9 @@
                         <div class="destination_tab width_30">
                             <select class="form-control selectpicker" data-live-search="true" id="search_destination">
                                         <option value="1">All Destination</option>
-                                        <optgroup>Africa &amp; Middle East</optgroup>
-                                        <option>Egypt</option>
-                                        <option>Insrael</option>
-                                        <option>Jordan</option>
-                                        <option>Kenya</option>
-                                        <option>Morocco</option>
-                                        <optgroup>Africa &amp; Middle East</optgroup>
-                                        <option>Egypt</option>
-                                        <option>Insrael</option>
-                                        <option>Jordan</option>
-                                        <option>Kenya</option>
-                                        <option>Morocco</option>
-
+                                        @foreach($countries as $country)
+                                        <option>{{$country->name}}</option>
+                                        @endforeach
                                       </select>
                             <i class="fa fa-caret-down"></i>
                         </div>
