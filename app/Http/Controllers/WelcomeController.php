@@ -23,7 +23,6 @@ class WelcomeController extends Controller
 
     public function __construct()
     {
-        $this->middleware('auth');
         $this->countries = Country::all();
     }
 
